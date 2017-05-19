@@ -1,0 +1,86 @@
+<gcard>
+<option name="DBHOST" value="eicdb"/>
+<option name="DATABASE" value="test"/>
+<option name="DBUSER" value="eicuser"/>
+<option name="DBPSWD" value="iloveeic"/>
+
+<detector name="det1_rich_dual_ionside" factory="TEXT" variation="Original"/>
+
+<option name="geometry" value="1000x1000"/>
+<option name="HIGH_RES" value="1"/>
+<option name="USE_GUI"  value="1"/>
+<option name="SAVE_ALL_MOTHERS" value="1"/>
+
+<option name="PHYSICS" value="QGSP_BERT+STD+Optical"/>
+<option name="RECORD_PASSBY" value="1"/>
+<option name="HALL_MATERIAL" value="Vacuum"/>
+
+<option name="MAX_X_POS" value="100000"/>
+<option name="MAX_Y_POS" value="100000"/>
+<option name="MAX_Z_POS" value="100000"/>
+<option name="HALL_DIMENSIONS" value="100*m,100*m,100*m"/>
+
+<option name="BEAM_P"   value="pi+, 30*GeV, 5*deg, 0*deg"/>
+<option name="SPREAD_P" value="0*eV,0*deg,0*deg"/>
+<option name="BEAM_V"   value="(0, 0, 0)cm"/>
+<option name="SPREAD_V" value="(0.,0)cm"/>
+
+<option name="N" value="0"/>
+<option name="OUTPUT" value="evio,output.evio"/>
+
+</gcard>
+
+<!--  comment out
+
+<option name="MIRROR_VERBOSITY" value="100"/>
+<option name="RECORD_MIRRORS" value="1"/>
+
+<option name="HALL_FIELD" value="meic_det1_solenoid_dual_v9"/>
+<option name="HALL_FIELD" value="det1_solenoid_hybrid_v1"/>
+<option name="FIELD_DIR" value="field"/>
+
+<option name="CHECK_OVERLAPS" value="1"/>
+
+<option name="HALL_FIELD" value="det_sol_field_cylinder"/>
+<option name="FIELD_DIR" value="../field"/>
+<option name="SCALE_FIELD" value="meic_det1_ion_downstream_dipole1_simple,1.666667"/>
+<option name="SCALE_FIELD" value="meic_det1_ion_downstream_dipole2_simple,1.666667"/>
+<option name="SCALE_FIELD" value="meic_det1_ion_downstream_quadrupole1_simple,1.666667"/>
+<option name="SCALE_FIELD" value="meic_det1_ion_downstream_quadrupole2_simple,1.666667"/>
+<option name="SCALE_FIELD" value="meic_det1_ion_downstream_quadrupole3_simple,1.666667"/>
+<option name="SCALE_FIELD" value="meic_det1_ion_downstream_quadrupole4_simple,1.666667"/>
+<option name="SCALE_FIELD" value="meic_det1_ion_upstream_quadrupole1_simple,1.666667"/>
+<option name="SCALE_FIELD" value="meic_det1_ion_upstream_quadrupole2_simple,1.666667"/>
+<option name="SCALE_FIELD" value="meic_det1_ion_upstream_quadrupole3_simple,1.666667"/>
+
+<option name="EXEC_MACRO" value="meic_slice_tilt.vis"/>
+
+
+<option name="HIT_PROCESS_LIST" value="solid"/>
+
+<option name="FIELD_VERBOSITY"  value="100"/>
+<option name="GEO_VERBOSITY"  value="100"/>
+<option name="MIRROR_VERBOSITY" value="100"/>
+
+use this to check overlap
+<option name="CHECK_OVERLAPS"  value="1"/>
+<option name="USE_GUI"  value="0"/>
+
+use this to run batch mode for txt or evio output
+<option name="N" value="1"/>
+<option name="OUTPUT" value="txt,output.txt"/>
+<option name="OUTPUT" value="evio,output.evio"/>
+<option name="USE_GUI"  value="0"/>
+
+use this for interactive mode
+<option name="geometry" value="1000x1000"/>
+<option name="HIGH_RES" value="1"/>
+<option name="USE_GUI"  value="1"/>
+
+use this to cut 
+<option name="EXEC_MACRO" value="meic_slice_tilt.vis"/>
+<option name="EXEC_MACRO" value="meic_slice_solenoid.vis"/>
+
+use "gemc -help" to see all options
+
+-->
