@@ -1,0 +1,13 @@
+This is a standalone RICH simulation using "eic_gemc"
+
+source your set_eic 
+
+./meic_det1.pl config.dat  (geometry, hit, bank file produced)
+
+eic_gemc meic_det1.gcard   (run simulation)
+
+more output.txt            (view text output)
+
+evio2root -INPUTF=output.evio  -B=det1_rich_dual_ionside (convert evio output into root tree)
+
+root output.root           (view root output)
