@@ -1,0 +1,41 @@
+            eic_rich  |              bankid  |                                  eic_rich bank ID  |  500   |                  Di  
+            eic_rich  |                  id  |                                         Volume ID  |   90   |                  Di  
+            eic_rich  |                hitn  |                                        hit number  |   99   |                  Di  
+            eic_rich  |                 pid  |                                       Particle ID  |    1   |                  Di  
+            eic_rich  |                mpid  |                                Mother Particle ID  |    2   |                  Di  
+            eic_rich  |                 tid  |                                          track ID  |    3   |                  Di  
+            eic_rich  |                mtid  |                                   mother track ID  |    4   |                  Di  
+            eic_rich  |                otid  |                                 original track id  |    5   |                  Di  
+            eic_rich  |              trackE  |                                           totEdep  |    6   |                  Dd  
+            eic_rich  |             totEdep  |                            Total Energy Deposited  |    7   |                  Dd  
+            eic_rich  |               avg_x  |                         Average global x position  |    8   |                  Dd  
+            eic_rich  |               avg_y  |                         Average global y position  |    9   |                  Dd  
+            eic_rich  |               avg_z  |                         Average global z position  |   10   |                  Dd  
+            eic_rich  |              avg_lx  |                         Average local  x position  |   11   |                  Dd  
+            eic_rich  |              avg_ly  |                         Average local  y position  |   12   |                  Dd  
+            eic_rich  |              avg_lz  |                         Average local  z position  |   13   |                  Dd  
+            eic_rich  |                  px  |                     x component of track momentum  |   14   |                  Dd  
+            eic_rich  |                  py  |                     y component of track momentum  |   15   |                  Dd  
+            eic_rich  |                  pz  |                     z component of track momentum  |   16   |                  Dd  
+            eic_rich  |                  vx  |                    x coordinate of primary vertex  |   17   |                  Dd  
+            eic_rich  |                  vy  |                    y coordinate of primary vertex  |   18   |                  Dd  
+            eic_rich  |                  vz  |                    z coordinate of primary vertex  |   19   |                  Dd  
+            eic_rich  |                 mvx  |                     x coordinate of mother vertex  |   20   |                  Dd  
+            eic_rich  |                 mvy  |                     y coordinate of mother vertex  |   21   |                  Dd  
+            eic_rich  |                 mvz  |                     z coordinate of mother vertex  |   22   |                  Dd  
+            eic_rich  |               avg_t  |                                         Average t  |   23   |                  Dd  
+            eic_rich  |               in_px  |                                       entrance px  |   24   |                  Dd  
+            eic_rich  |               in_py  |                                       entrance py  |   25   |                  Dd  
+            eic_rich  |               in_pz  |                                       entrance pz  |   26   |                  Dd  
+            eic_rich  |                in_x  |                        entrance global x position  |   27   |                  Dd  
+            eic_rich  |                in_y  |                        entrance global y position  |   28   |                  Dd  
+            eic_rich  |                in_z  |                        entrance global z position  |   29   |                  Dd  
+            eic_rich  |                in_t  |                                     entrance time  |   30   |                  Dd  
+            eic_rich  |              out_px  |                                           exit px  |   31   |                  Dd  
+            eic_rich  |              out_py  |                                           exit py  |   32   |                  Dd  
+            eic_rich  |              out_pz  |                                           exit pz  |   33   |                  Dd  
+            eic_rich  |               out_x  |                            exit global x position  |   34   |                  Dd  
+            eic_rich  |               out_y  |                            exit global y position  |   35   |                  Dd  
+            eic_rich  |               out_z  |                            exit global z position  |   36   |                  Dd  
+            eic_rich  |               out_t  |                                         exit time  |   37   |                  Dd  
+            eic_rich  |              nsteps  |                                   number of steps  |   38   |                  Di  
