@@ -2,9 +2,11 @@ This is a standalone RICH simulation using "eic_gemc"
 
 source your set_eic 
 
-./meic_det1.pl config.dat  (geometry, hit, bank file produced)
+./det1_rich_dual_ionside.pl config_det1_rich_dual_ionside.dat  (geometry, hit, bank file produced)
 
-eic_gemc meic_det1.gcard   (run simulation)
+eic_gemc det1_rich_dual_ionside_inter.gcard   (run simulation in graphic mode)
+
+eic_gemc det1_rich_dual_ionside_batch.gcard   (run simulation in batch mode)
 
 more output.txt            (view text output)
 

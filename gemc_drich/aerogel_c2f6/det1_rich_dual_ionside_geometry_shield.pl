@@ -38,9 +38,12 @@ sub det1_rich_dual_ionside
  my $mir_rot = asin($mir_dx/$mir_r)*$DEG;
  my @z    = (250+82.5,252,254.16,254.32+80.34);
  my @Rin1  = (10,10,10,10);
- my @Rout1 = (300,120,$Rout_a,$Rout_l);
- my @Rin2  = (10,10,10,10);
- my @Rout2 = (350,$Rout_a,$Rout_l,200);
+#  my @Rout1 = (300,120,$Rout_a,$Rout_l);
+ my @Rout1 = (220,120,$Rout_a,$Rout_l);
+#  my @Rin2  = (10,10,10,10);
+ my @Rin2  = (11,11,11,11);
+#  my @Rout2 = (350,$Rout_a,$Rout_l,200);
+ my @Rout2 = (220,$Rout_a,$Rout_l,220);
  my @Dz   = (82.5,2,0.16,80.34);
  my @name = ("box","aeo_rad","shield","gas_rad"); 
  my @mother = ("$DetectorMother","$DetectorMother","$DetectorMother","$DetectorMother"); 
