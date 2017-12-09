@@ -64,8 +64,7 @@ require "det1_rich_dual_ionside_mirror.pl";
 
 #hit
 require "eic_rich_hit.pl";
-define_hit();
 
 # banks
 require "eic_rich_bank.pl";
-define_bank();
+

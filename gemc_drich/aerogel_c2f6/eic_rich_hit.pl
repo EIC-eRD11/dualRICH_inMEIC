@@ -24,4 +24,5 @@ sub define_hit
 }
 
 
-1;
+define_hit();
+

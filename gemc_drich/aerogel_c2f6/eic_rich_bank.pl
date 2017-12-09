@@ -68,7 +68,7 @@ sub define_bank
 
 }
 
-1;
+define_bank();
 
 
 
