@@ -56,6 +56,9 @@ $configuration{"variation"} = "Original";
 require "det1_rich_dual_ionside_geometry_shield.pl";
 det1_rich_dual_ionside();
 
+require "det1_rich_dual_ionside_virtualplane.pl";
+det1_rich_dual_ionside_virtualplane();
+
 #materials
 require "det1_rich_dual_ionside_materials.pl";
 
