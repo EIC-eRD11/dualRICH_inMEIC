@@ -134,16 +134,16 @@ sub define_material
 	$mat{"ncomponents"}   = "2";
 	$mat{"components"}    = "Si 1 O 2";
 	#$mat{"photonEnergy"}      = "2.5*eV 3*eV 3.5*eV 4*eV";
-	$mat{"photonEnergy"}      = "2*eV 2.5*eV 3*eV 3.5*eV 4*eV 7*eV";
+	#$mat{"photonEnergy"}      = "2*eV 2.5*eV 3*eV 3.5*eV 4*eV 7*eV";
 	#$mat{"indexOfRefraction"} = "1.01992 1.02029 1.02074 1.02128";
 	#$mat{"indexOfRefraction"} = "1.01963 1.01992 1.02029 1.02074 1.02128";
-	$mat{"indexOfRefraction"} = "1.02 1.02 1.02 1.02 1.02 1.02";		
-	$mat{"absorptionLength"}  = "30*cm 30*cm 30*cm 30*cm 30*cm 30*cm";
+	#$mat{"indexOfRefraction"} = "1.02 1.02 1.02 1.02 1.02 1.02";		
+	#$mat{"absorptionLength"}  = "30*cm 30*cm 30*cm 30*cm 30*cm 30*cm";
 	#$mat{"rayleigh"} = "1.001 1.001 1.001 1.001 1.05";
-	#$mat{"photonEnergy"}      = arrayToString(@RichAerogel_PhoE);
-	#$mat{"indexOfRefraction"} = arrayToString(@RichAerogel_Rind3);
-	#$mat{"absorptionLength"}  = arrayToString(@RichAerogel_Abs);
-	#$mat{"rayleigh"} = arrayToString(@RichAerogel_Scat_scaled);
+	$mat{"photonEnergy"}      = arrayToString(@RichAerogel_PhoE);
+	$mat{"indexOfRefraction"} = arrayToString(@RichAerogel_Rind3);
+	$mat{"absorptionLength"}  = arrayToString(@RichAerogel_Abs);
+	$mat{"rayleigh"} = arrayToString(@RichAerogel_Scat_scaled);
 	print_mat(\%configuration, \%mat);
 
 	# Lens Acrylic
@@ -198,8 +198,8 @@ sub define_material
 	$mat{"ncomponents"}   = "2"; #C2F6
 	$mat{"components"}    = "C 2 F 6";
 	$mat{"photonEnergy"}      = "2*eV 2.5*eV 3*eV 3.5*eV 4*eV 4.5*eV 5*eV 5.5*eV 6*eV 6.5*eV 7*eV";
-	#$mat{"indexOfRefraction"} = "1.000823 1.000829 1.000835 1.000843 1.000852 1.000863 1.000875 1.000889 1.000905 1.000923 1.000943"; #pure C2F6
-	$mat{"indexOfRefraction"} = "1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823";
+	$mat{"indexOfRefraction"} = "1.000823 1.000829 1.000835 1.000843 1.000852 1.000863 1.000875 1.000889 1.000905 1.000923 1.000943"; #pure C2F6
+	#$mat{"indexOfRefraction"} = "1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823 1.000823";
 	$mat{"absorptionLength"}  = "10*m 10*m 10*m 10*m 10*m 10*m 10*m 10*m 10*m 10*m 10*m";
 	print_mat(\%configuration, \%mat);
 
